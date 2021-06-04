@@ -1,0 +1,28 @@
+.row {
+	display: flex;
+}
+
+.col-2 {
+	width: 60%;
+}
+
+/*¿Qué porcentaje es 4 de un total de 12?*/
+.col-4 {
+	width: 33.333%;
+	padding: 16px;
+}	
+
+.col-8 {
+	width: 66.666%;
+}
+
+.col-12 {
+	width: 100%;
+	/*flex-direction: row-reverse;*/
+	/*flex-direction: column-reverse;*/
+}
+/*.container {
+	width: 90%;
+	margin: auto;
+	/*background-color: #741ce8;*
+}*/
